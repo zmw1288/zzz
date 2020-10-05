@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.clearfix::after{
+			content: "";
+			display: block;
+			clear: both;
+
+		}
+		.header,.main,.pagrfooter{
+			width: 760px;
+			margin: 0 auto;
+		}
+		.header,.pagrfooter{
+			background-color: blue;
+		}
+		.main{
+			background: skyblue;
+		}
+		.left,.right{
+			width: 260px;
+			float: left;
+		}
+		.content{
+			width: 500px;
+			float: left;
+			background: green;
+		}
+	</style>
+</head>
+<body>
+		<div class="header clearfix">
+	hader&nbsp;hader&nbsp;hader&nbsp;hader&nbsp;hader&nbsp;hader&nbsp;hader&nbsp;hader&nbsp;hader&nbsp;<br>
+	hader&nbsp;hader&nbsp;hader&nbsp;
+		</div>
+		<div class="main clearfix">
+		<div class=side>
+		side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;side&nbsp;
+	  side&nbsp;side&nbsp;side&nbsp;side&nbsp;</div>
+		<div class="content clearfix">
+		concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  concent&nbsp;concent&nbsp;concent&nbsp;concent&nbsp;
+	  </div>
+		</div>
+		<div class="pagrfooter clearfix">
+		pagrfooter&nbsp;pagrfooter&nbsp;pagrfooter&nbsp;pagrfooter&nbsp;pagrfooter&nbsp;pagrfooter&nbsp;
+		pagrfooter&nbsp;pagrfooter&nbsp;pagrfooter&nbsp;pagrfooter&nbsp;pagrfooter&nbsp;
+	  </div>
+</body>
+</html>
